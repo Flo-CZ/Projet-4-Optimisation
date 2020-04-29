@@ -99,8 +99,22 @@ a:hover {
     background-attachment: fixed;
 }
 
-/* Correction navbar */
+/* Correction toogle et navbar */
 
+.navbar-toggle {
+    display: block;
+    margin: 10px 10px 0 0;
+    border: 0px;
+}
+
+.navbar-toggle:hover {
+    background: transparent !important;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: rgba(0, 0, 0, .5);
+    width: 26px;
+}
 
 /* Correction bannière en responsive */
 
@@ -378,20 +392,6 @@ form {
 .nav>li a:hover,
 .nav>li a:focus {
     background: transparent;
-}
-
-.navbar-toggle {
-    margin: 10px 10px 0 0;
-    border: 0px;
-}
-
-.navbar-toggle:hover {
-    background: transparent !important;
-}
-
-.navbar-toggle .icon-bar {
-    background-color: rgba(0, 0, 0, .5);
-    width: 26px;
 }
 
 .nav-invert .navbar .nav {
@@ -909,7 +909,7 @@ h4 {
 @media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
-    }
+    }    
 }
 
 @media (max-width: 991px) {
@@ -961,7 +961,6 @@ h4 {
 
     .navbar .nav {
         padding-top: 0;
-        border-top: 1px solid rgba(0, 0, 0, .2);
         float: none !important;
     }
 
