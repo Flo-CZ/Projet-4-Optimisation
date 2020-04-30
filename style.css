@@ -798,6 +798,21 @@ h4 {
     margin-top: 24px;
 }
 
+/* Textes */
+
+.text-bloc-2 {
+    font-size: 1.58em;
+}
+
+.text-citation {
+    font-size: 1.4em;
+    font-style: italic;
+}
+
+.citation-recommandation {
+    font-size: 0.98em;
+}
+
 .white {
     color: #FFFFFF !important;
 }
