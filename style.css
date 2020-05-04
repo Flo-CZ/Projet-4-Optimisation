@@ -139,9 +139,10 @@ a:hover {
 .color-form {
     background-color: rgb(184, 114, 82);
     box-shadow: 2px 2px 5px grey;
-    width: 300px;
+    width: 325px;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 5px;
 }
 
 .form-control {
@@ -160,6 +161,7 @@ a:hover {
 
 .contact-adress {
     text-align: center;
+    margin-top: 12px;
 }
 
 form {
@@ -167,6 +169,17 @@ form {
     padding-bottom: 10px;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.row-bar {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Icône scrollToTop */
+
+.fa-chevron-up {
+    color: white;
 }
 
 .d-bloc {
@@ -573,7 +586,7 @@ button {
     height: 40px;
     position: fixed;
     bottom: 20px;
-    right: 20px;
+    right: 4px;
     opacity: 0;
     z-index: 500;
     transition: all .3s ease-in-out;
@@ -745,8 +758,6 @@ p {
     font-family: "Open Sans";
 }
 
-/* Positionnement btn */
-
 .cta-hero {
     margin-top: 22px;
     color: #FFFFFF !important;
@@ -754,12 +765,6 @@ p {
     padding: 12px 28px 12px 28px;
     font-size: 16px;
     font-weight: 700;
-}
-
-.btn-center {
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
 }
 
 .social {
@@ -932,6 +937,10 @@ h4 {
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
+    }
+
+    .test {
+        margin-right: 50px;
     }
 }
 
