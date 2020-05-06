@@ -827,8 +827,12 @@ h4 {
     color: #FFFFFF !important;
 }
 
+/* Ajustement images accueil en responsive */
+
 .portfolio-thumb {
     margin-bottom: 24px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .portfolio-row {
