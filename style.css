@@ -7,10 +7,9 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-a,
+a:focus,
 button {
     transition: all .3s ease-in-out;
-    outline: none !important;
 }
 
 a:hover {
@@ -536,10 +535,6 @@ nav .caret {
     background: rgba(0, 0, 0, .3);
 }
 
-button {
-    outline: none !important;
-}
-
 .btn-rd {
     border-radius: 40px;
 }
@@ -867,7 +862,8 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C !important;
+    color: white !important;
+    z-index: 2;
 }
 
 .btn-atomic-tangerine {
